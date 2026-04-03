@@ -3,7 +3,7 @@
 
 ### Local setup
 ```
-git clone https://github.com/ycisir/sample_app.git
+git clone https://github.com/ycisir/social_app.git
 cd sample_app
 docker compose build
 docker compose run web bundle install
