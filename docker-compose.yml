@@ -2,9 +2,9 @@ services:
   web:
     build: .
     command: bash -c "bundle install && rails server -b 0.0.0.0"
-    working_dir: /sample_app
+    working_dir: /social_app
     volumes:
-      - .:/sample_app
+      - .:/social_app
     ports:
       - "3000:3000"
     depends_on:
