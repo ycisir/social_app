@@ -8,7 +8,7 @@ RUN apt-get update -qq && apt-get install -y \
     yarn
 
 # Set working directory
-WORKDIR /sample_app
+WORKDIR /social_app
 
 COPY Gemfile Gemfile.lock ./
 RUN bundle install
