@@ -4,7 +4,7 @@
 ### Local setup
 ```
 git clone https://github.com/ycisir/social_app.git
-cd sample_app
+cd social_app
 docker compose build
 docker compose run web bundle install
 docker compose run web rails db:create db:migrate
